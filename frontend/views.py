@@ -9,3 +9,9 @@ def login(request):
 
 def signup(request):
     return render(request, 'frontend/signup/signup.html')    
+
+def aboutUs(request):
+    return render(request, 'frontend/aboutUs/aboutUs.html')
+
+def dashboard(request):
+    return render(request,'frontend/dashboard/dashboard.html')
